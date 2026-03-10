@@ -414,3 +414,33 @@ HTML / CSS
 
 ```bash
 git clone https://github.com/yourusername/AI-Loan-Risk-Intelligence-Platform.git
+
+```
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+
+```
+
+### Add Dataset Files
+
+Place these files in the data folder
+
+```bash
+customers.csv
+loans.csv
+payments.csv
+financial_documents_rag.csv
+
+```
+
+### Run the Application
+
+```bash
+streamlit run app.py
+```
+
+
+
+
