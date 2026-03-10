@@ -458,4 +458,28 @@ streamlit run app.py
 
 - Interactive Streamlit dashboard
 
+### 👨‍💻 Author
 
+Hassan Subhani
+
+Data Scientist | AI/ML Engineer | Financial Analytics Enthusiast
+
+Passionate about building AI-powered data systems that transform raw financial data into intelligent insights.
+
+**Skills Demonstrated**
+
+-Machine Learning
+
+- Financial Risk Modeling
+
+- Explainable AI (SHAP)
+
+- Data Analytics
+
+- Retrieval-Augmented Generation (RAG)
+
+- Business Intelligence
+
+- Streamlit Application Development
+
+**[LinkedIn Profile](https://www.linkedin.com/in/itshassansubhani/)**
