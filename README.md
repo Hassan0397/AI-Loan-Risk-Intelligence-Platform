@@ -440,7 +440,22 @@ financial_documents_rag.csv
 ```bash
 streamlit run app.py
 ```
+### ⭐ Project Highlights
 
+- End-to-end AI loan risk analytics platform
 
+- Machine learning default prediction
+
+- Explainable AI risk analysis
+
+- Financial risk modeling
+
+- Monte Carlo ROI simulations
+
+- Document Q&A assistant using RAG
+
+- Automated professional reporting
+
+- Interactive Streamlit dashboard
 
 
