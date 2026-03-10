@@ -345,24 +345,44 @@ Generates professional portfolio analysis reports.
 Streamlit Web Application
 
 │
+
 ├── Data Layer
+
 │ ├── customers.csv
+
 │ ├── loans.csv
+
 │ ├── payments.csv
+
 │ └── financial_documents_rag.csv
+
 │
+
 ├── Data Processing
+
 │ ├── data_loader.py
+
 │ └── data_cleaner.py
+
 │
 ├── Analytics Layer
+
 │ ├── eda_analysis.py
+
 │ ├── loan_default_predictor.py
+
 │ └── shap_explainer.py
+
 │
+
 ├── Intelligence Layer
+
 │ ├── rag_financial.py
+
 │ └── financial_models.py
+
 │
+
 └── Reporting
+
 └── report_generator.py
