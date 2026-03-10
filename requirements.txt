@@ -1,0 +1,21 @@
+streamlit==1.29.0
+pandas==2.1.4
+numpy==1.24.3
+scikit-learn==1.3.2
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.18.0
+shap==0.44.0
+xgboost==2.0.2
+lightgbm==4.1.0
+langchain==0.0.340
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+openai==0.28.0  # or use free alternatives
+chromadb==0.4.22
+nltk==3.8.1
+scipy==1.11.4
+statsmodels==0.14.0
+joblib==1.3.2
+python-dotenv==1.0.0
+streamlit-extras==0.3.6
