@@ -6,14 +6,14 @@
 2. [🎯 Business Problem](#-business-problem)
 3. [💡 Solution Approach](#-solution-approach)
 4. [🧩 System Modules](#-system-modules)
-5. [📊 Module 1 — Data Loading](#-module-1--data-loading)
-6. [🧹 Module 2 — Data Cleaning](#-module-2--data-cleaning)
-7. [📈 Module 3 — Exploratory Data Analysis](#-module-3--exploratory-data-analysis-eda)
-8. [🤖 Module 4 — Loan Default Prediction](#-module-4--loan-default-prediction)
-9. [💡 Module 5 — Explainable AI (SHAP)](#-module-5--explainable-ai-shap)
-10. [📚 Module 6 — Financial Document Assistant (RAG)](#-module-6--financial-document-assistant-rag)
-11. [💰 Module 7 — Financial Risk Models](#-module-7--financial-risk-models)
-12. [📋 Module 8 — Automated Report Generation](#-module-8--automated-report-generation)
+5. [📊 Module 1 — Data Loading](#module-1--data-loading)
+6. [🧹 Module 2 — Data Cleaning](#module-2--data-cleaning)
+7. [📈 Module 3 — Exploratory Data Analysis](#module-3--exploratory-data-analysis-eda)
+8. [🤖 Module 4 — Loan Default Prediction](#module-4--loan-default-prediction)
+9. [💡 Module 5 — Explainable AI (SHAP)](#module-5--explainable-ai-shap)
+10. [📚 Module 6 — Financial Document Assistant (RAG)](#module-6--financial-document-assistant-rag)
+11. [💰 Module 7 — Financial Risk Models](#module-7--financial-risk-models)
+12. [📋 Module 8 — Automated Report Generation](#module-8--automated-report-generation)
 13. [🏗 System Architecture](#-system-architecture)
 14. [🛠 Technology Stack](#-technology-stack)
 15. [📊 Business Impact](#-business-impact)
@@ -26,8 +26,6 @@
 ## 📌 **Project Overview**
 
 The **AI Loan Analyst** is a sophisticated Streamlit-based web application designed to automate and enhance the loan analysis process for financial institutions. It combines data science, machine learning, and financial modeling to provide a complete loan portfolio management solution.
-
-[Back to Top](#-table-of-contents)
 
 ---
 
@@ -49,18 +47,15 @@ Financial institutions face several critical challenges in loan portfolio manage
 - 1000+ hours spent on manual analysis and reporting
 - Regulatory penalties for non-compliance
 
-[Back to Top](#-table-of-contents)
-
 ---
 
 ## 💡 **Solution Approach**
 
 The AI Loan Analyst addresses these challenges through an **integrated 8-module pipeline** that automates the entire loan analysis lifecycle:
+
+```
 Raw Data → Data Cleaning → Analysis → ML Prediction → Explanations → Reports
-
-text
-
-[Back to Top](#-table-of-contents)
+```
 
 ---
 
@@ -79,11 +74,9 @@ The system consists of **8 integrated modules**, each addressing a specific aspe
 | **7: Financial Models** | Risk, ROI, stress testing | Monte Carlo, Holt-Winters |
 | **8: Report Generation** | PDF/HTML report creation | FPDF, HTML/CSS |
 
-[Back to Top](#-table-of-contents)
-
 ---
 
-## 📊 **Module 1 — Data Loading** (`data_loader.py`)
+## 📊 **Module 1 — Data Loading** (`data_loader.py`) {#module-1--data-loading}
 
 **Purpose:** Ingest and validate raw data from CSV files
 
@@ -99,11 +92,9 @@ The system consists of **8 integrated modules**, each addressing a specific aspe
 - ✅ **Immediate validation** of data completeness
 - ✅ **Preview capabilities** for quick data quality checks
 
-[Back to Top](#-table-of-contents)
-
 ---
 
-## 🧹 **Module 2 — Data Cleaning** (`data_cleaner.py`)
+## 🧹 **Module 2 — Data Cleaning** (`data_cleaner.py`) {#module-2--data-cleaning}
 
 **Purpose:** AI-powered data quality improvement
 
@@ -121,38 +112,37 @@ The system consists of **8 integrated modules**, each addressing a specific aspe
 - ✅ **Consistent data quality** across all analyses
 - ✅ **Outlier detection** prevents skewed insights
 
-[Back to Top](#-table-of-contents)
-
 ---
 
-## 📈 **Module 3 — Exploratory Data Analysis (EDA)** (`eda_analysis.py`)
+## 📈 **Module 3 — Exploratory Data Analysis (EDA)** (`eda_analysis.py`) {#module-3--exploratory-data-analysis-eda}
 
 **Purpose:** Comprehensive visualization and statistical analysis
 
 **Analysis Categories:**
-┌─────────────────────────────────────┐
-│ EXECUTIVE DASHBOARD │
-│ ├─ Key Performance Indicators │
-│ ├─ Default Rates & Trends │
-│ └─ Portfolio Health Metrics │
-├─────────────────────────────────────┤
-│ CUSTOMER ANALYTICS │
-│ ├─ Demographics & Segmentation │
-│ ├─ Income Distribution │
-│ └─ Education & Employment Patterns │
-├─────────────────────────────────────┤
-│ LOAN PORTFOLIO │
-│ ├─ Loan Amount Distribution │
-│ ├─ Interest Rate Analysis │
-│ └─ Default Risk Assessment │
-├─────────────────────────────────────┤
-│ PAYMENT INTELLIGENCE │
-│ ├─ Payment Timeliness │
-│ ├─ Payment Amount Patterns │
-│ └─ Delinquency Analysis │
-└─────────────────────────────────────┘
 
-text
+```
+┌─────────────────────────────────────┐
+│  EXECUTIVE DASHBOARD                 │
+│  ├─ Key Performance Indicators       │
+│  ├─ Default Rates & Trends           │
+│  └─ Portfolio Health Metrics         │
+├─────────────────────────────────────┤
+│  CUSTOMER ANALYTICS                   │
+│  ├─ Demographics & Segmentation      │
+│  ├─ Income Distribution              │
+│  └─ Education & Employment Patterns  │
+├─────────────────────────────────────┤
+│  LOAN PORTFOLIO                        │
+│  ├─ Loan Amount Distribution         │
+│  ├─ Interest Rate Analysis           │
+│  └─ Default Risk Assessment          │
+├─────────────────────────────────────┤
+│  PAYMENT INTELLIGENCE                  │
+│  ├─ Payment Timeliness               │
+│  ├─ Payment Amount Patterns          │
+│  └─ Delinquency Analysis             │
+└─────────────────────────────────────┘
+```
 
 **Statistical Techniques:**
 - Correlation matrices
@@ -165,11 +155,9 @@ text
 - ✅ **Pattern discovery** invisible to manual analysis
 - ✅ **Data-driven insights** for strategic decisions
 
-[Back to Top](#-table-of-contents)
-
 ---
 
-## 🤖 **Module 4 — Loan Default Prediction** (`loan_default_predictor.py`)
+## 🤖 **Module 4 — Loan Default Prediction** (`loan_default_predictor.py`) {#module-4--loan-default-prediction}
 
 **Purpose:** Machine learning models to predict loan defaults
 
@@ -197,45 +185,42 @@ text
 - ✅ **Reduced losses** by 20-40% through early intervention
 - ✅ **Automated underwriting** support
 
-[Back to Top](#-table-of-contents)
-
 ---
 
-## 💡 **Module 5 — Explainable AI (SHAP)** (`shap_explainer.py`)
+## 💡 **Module 5 — Explainable AI (SHAP)** (`shap_explainer.py`) {#module-5--explainable-ai-shap}
 
 **Purpose:** Explainable AI to understand model predictions
 
 **Explanation Techniques:**
-┌─────────────────────────────────────┐
-│ FEATURE IMPORTANCE │
-│ Which factors most influence risk? │
-│ └─ Credit Score: 35% importance │
-│ └─ DTI Ratio: 28% importance │
-│ └─ Payment History: 22% importance │
-├─────────────────────────────────────┤
-│ INDIVIDUAL PREDICTIONS │
-│ Why was THIS loan flagged high-risk? │
-│ └─ Low credit score (-40 points) │
-│ └─ High DTI ratio (-30 points) │
-│ └─ Recent late payment (-20 points) │
-├─────────────────────────────────────┤
-│ PARTIAL DEPENDENCE │
-│ How does risk change with X? │
-│ └─ As credit score drops below 600... │
-└─────────────────────────────────────┘
 
-text
+```
+┌─────────────────────────────────────┐
+│  FEATURE IMPORTANCE                   │
+│  Which factors most influence risk?   │
+│  └─ Credit Score: 35% importance      │
+│  └─ DTI Ratio: 28% importance         │
+│  └─ Payment History: 22% importance   │
+├─────────────────────────────────────┤
+│  INDIVIDUAL PREDICTIONS                │
+│  Why was THIS loan flagged high-risk?  │
+│  └─ Low credit score (-40 points)      │
+│  └─ High DTI ratio (-30 points)        │
+│  └─ Recent late payment (-20 points)   │
+├─────────────────────────────────────┤
+│  PARTIAL DEPENDENCE                     │
+│  How does risk change with X?           │
+│  └─ As credit score drops below 600...  │
+└─────────────────────────────────────┘
+```
 
 **Business Value:**
 - ✅ **Regulatory compliance** with explainability requirements
 - ✅ **Trust building** with stakeholders
 - ✅ **Model debugging** and improvement
 
-[Back to Top](#-table-of-contents)
-
 ---
 
-## 📚 **Module 6 — Financial Document Assistant (RAG)** (`rag_financial.py`)
+## 📚 **Module 6 — Financial Document Assistant (RAG)** (`rag_financial.py`) {#module-6--financial-document-assistant-rag}
 
 **Purpose:** Question-answering system for financial documents
 
@@ -260,11 +245,9 @@ text
 - ✅ **Instant policy lookup** for staff
 - ✅ **Consistent answers** across all channels
 
-[Back to Top](#-table-of-contents)
-
 ---
 
-## 💰 **Module 7 — Financial Risk Models** (`financial_models.py`)
+## 💰 **Module 7 — Financial Risk Models** (`financial_models.py`) {#module-7--financial-risk-models}
 
 **Purpose:** Advanced financial analytics and risk modeling
 
@@ -298,11 +281,9 @@ text
 - ✅ **Capital planning** optimization
 - ✅ **Portfolio resilience** testing
 
-[Back to Top](#-table-of-contents)
-
 ---
 
-## 📋 **Module 8 — Automated Report Generation** (`report_generator.py`)
+## 📋 **Module 8 — Automated Report Generation** (`report_generator.py`) {#module-8--automated-report-generation}
 
 **Purpose:** Generate professional PDF and HTML reports
 
@@ -328,41 +309,38 @@ text
 - ✅ **Time savings** of 5+ hours per report
 - ✅ **Consistent formatting** and branding
 
-[Back to Top](#-table-of-contents)
-
 ---
 
-## 🏗 **System Architecture**
+## 🏗 **System Architecture** {#-system-architecture}
+
+```
 ┌─────────────────────────────────────────────────────────────┐
-│ USER INTERFACE │
-│ Streamlit Web App │
+│                     USER INTERFACE                           │
+│                    Streamlit Web App                         │
 ├─────────────────────────────────────────────────────────────┤
-│ APPLICATION LAYER │
-│ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐
-│ │Module 1 │ │Module 2 │ │Module 3 │ │Module 4 │ │Module 5 │
-│ │Loader │ │Cleaner │ │EDA │ │ML Model │ │SHAP │
-│ └─────────┘ └─────────┘ └─────────┘ └─────────┘ └─────────┘
-│ ┌─────────┐ ┌─────────┐ ┌─────────┐
-│ │Module 6 │ │Module 7 │ │Module 8 │
-│ │RAG │ │Finance │ │Report │
-│ └─────────┘ └─────────┘ └─────────┘
+│                    APPLICATION LAYER                         │
+│  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐
+│  │Module 1 │ │Module 2 │ │Module 3 │ │Module 4 │ │Module 5 │
+│  │Loader   │ │Cleaner  │ │EDA      │ │ML Model │ │SHAP     │
+│  └─────────┘ └─────────┘ └─────────┘ └─────────┘ └─────────┘
+│  ┌─────────┐ ┌─────────┐ ┌─────────┐
+│  │Module 6 │ │Module 7 │ │Module 8 │
+│  │RAG      │ │Finance  │ │Report   │
+│  └─────────┘ └─────────┘ └─────────┘
 ├─────────────────────────────────────────────────────────────┤
-│ DATA LAYER │
-│ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐ │
-│ │customers.csv│ │ loans.csv │ │ payments.csv│ │
-│ └─────────────┘ └─────────────┘ └─────────────┘ │
-│ ┌─────────────────────────────────────┐ │
-│ │ financial_documents_rag.csv │ │
-│ └─────────────────────────────────────┘ │
+│                      DATA LAYER                              │
+│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐           │
+│  │customers.csv│ │  loans.csv  │ │ payments.csv│           │
+│  └─────────────┘ └─────────────┘ └─────────────┘           │
+│  ┌─────────────────────────────────────┐                    │
+│  │   financial_documents_rag.csv       │                    │
+│  └─────────────────────────────────────┘                    │
 └─────────────────────────────────────────────────────────────┘
-
-text
-
-[Back to Top](#-table-of-contents)
+```
 
 ---
 
-## 🛠 **Technology Stack**
+## 🛠 **Technology Stack** {#-technology-stack}
 
 | Layer | Technologies |
 |-------|--------------|
@@ -374,11 +352,9 @@ text
 | **NLP** | TF-IDF, Custom RAG implementation |
 | **Explainable AI** | Custom SHAP implementation |
 
-[Back to Top](#-table-of-contents)
-
 ---
 
-## 📊 **Business Impact**
+## 📊 **Business Impact** {#-business-impact}
 
 ### **Quantitative Benefits**
 
@@ -398,11 +374,9 @@ text
 - ✅ **Customer trust** through explainable decisions
 - ✅ **Competitive advantage** through advanced analytics
 
-[Back to Top](#-table-of-contents)
-
 ---
 
-## 🚀 **Getting Started**
+## 🚀 **Getting Started** {#-getting-started}
 
 ```bash
 # Clone repository
@@ -419,50 +393,51 @@ pip install -r requirements.txt
 
 # Run application
 streamlit run app.py
-Back to Top
+```
 
-👨‍💻 Author
-Hassan Subhani
+---
 
-Back to Top
+## 👨‍💻 **Author** {#-author}
 
-⭐ Project Highlights
-What Makes This System Unique?
-Feature	Why It Matters
-End-to-End Pipeline	No need for multiple tools - everything in one platform
-Explainable AI	Not just predictions, but WHY those predictions were made
-RAG Document Assistant	Natural language interface to financial policies
-Professional Reporting	Client-ready reports with one click
-Basel III Compliance	Built-in regulatory stress testing
-No Black Box	Full transparency in all calculations
-Key Achievements
-🏆 98% reduction in analysis time
+**Hassan Subhani**
 
-🏆 35% improvement in default prediction accuracy
+---
 
-🏆 99% faster report generation
+## ⭐ **Project Highlights** {#-project-highlights}
 
-🏆 24/7 automated customer support capability
+### **What Makes This System Unique?**
 
-🏆 Complete audit trail for regulatory compliance
+| Feature | Why It Matters |
+|---------|----------------|
+| **End-to-End Pipeline** | No need for multiple tools - everything in one platform |
+| **Explainable AI** | Not just predictions, but WHY those predictions were made |
+| **RAG Document Assistant** | Natural language interface to financial policies |
+| **Professional Reporting** | Client-ready reports with one click |
+| **Basel III Compliance** | Built-in regulatory stress testing |
+| **No Black Box** | Full transparency in all calculations |
 
-Back to Top
+### **Key Achievements**
 
-🏁 Conclusion
-The AI Loan Analyst transforms loan portfolio management from a manual, time-intensive process into an automated, intelligent system. By combining data cleaning, machine learning, explainable AI, and professional reporting, it delivers immediate business value through:
+- 🏆 **98% reduction** in analysis time
+- 🏆 **35% improvement** in default prediction accuracy
+- 🏆 **99% faster** report generation
+- 🏆 **24/7 automated** customer support capability
+- 🏆 **Complete audit trail** for regulatory compliance
 
-Faster decisions (98% time reduction)
+---
 
-Better accuracy (35% improved default detection)
+## 🏁 **Conclusion**
 
-Lower losses (20-40% reduction)
+The AI Loan Analyst transforms loan portfolio management from a **manual, time-intensive process** into an **automated, intelligent system**. By combining data cleaning, machine learning, explainable AI, and professional reporting, it delivers **immediate business value** through:
 
-Full compliance (Basel III ready)
+- **Faster decisions** (98% time reduction)
+- **Better accuracy** (35% improved default detection)
+- **Lower losses** (20-40% reduction)
+- **Full compliance** (Basel III ready)
+- **Complete transparency** (explainable predictions)
 
-Complete transparency (explainable predictions)
+**ROI Payback Period:** 3-6 months for mid-sized financial institutions
 
-ROI Payback Period: 3-6 months for mid-sized financial institutions
+---
 
-Back to Top
-
-© 2025 AI Loan Analyst Platform | Created by Hassan Subhani | All Rights Reserved
+*© 2025 AI Loan Analyst Platform | All Rights Reserved*
