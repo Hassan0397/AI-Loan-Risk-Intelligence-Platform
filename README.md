@@ -97,3 +97,248 @@ Financial Modeling
 ↓
 
 Automated Reporting
+
+
+This solution integrates:
+
+- Data Analytics
+- Machine Learning
+- Explainable AI
+- Financial Risk Modeling
+- Natural Language Processing
+- Business Intelligence
+
+The result is **faster, more accurate, and transparent loan risk analysis**.
+
+---
+
+# 🧩 System Modules
+
+The platform is built using **8 integrated modules**, each responsible for a specific part of the analytics workflow.
+
+---
+
+# 📊 Module 1 — Data Loading
+
+**File:** `data_loader.py`
+
+Responsible for loading and validating raw datasets.
+
+### Supported Datasets
+
+| Dataset | Description |
+|-------|-------------|
+| customers.csv | Customer demographics and profiles |
+| loans.csv | Loan applications and loan terms |
+| payments.csv | Loan payment transaction history |
+| financial_documents_rag.csv | Financial policies and documentation |
+
+### Capabilities
+
+- Data ingestion
+- Dataset validation
+- Data preview functionality
+
+---
+
+# 🧹 Module 2 — Data Cleaning
+
+**File:** `data_cleaner.py`
+
+Automates data preprocessing and improves data quality.
+
+### Cleaning Operations
+
+| Dataset | Cleaning Process |
+|-------|------------------|
+| Customers | Handle missing values and remove duplicates |
+| Loans | Parse loan dates and calculate financial ratios |
+| Payments | Handle missing payment values |
+| Documents | Remove duplicate policy records |
+
+### Business Value
+
+- Improves dataset reliability
+- Reduces manual preprocessing work
+- Ensures consistent analytics results
+
+---
+
+# 📈 Module 3 — Exploratory Data Analysis (EDA)
+
+**File:** `eda_analysis.py`
+
+Provides visual insights into loan portfolio data.
+
+### Key Analysis
+
+**Executive Dashboard**
+
+- Portfolio size
+- Default rates
+- Key financial metrics
+
+**Customer Analytics**
+
+- Age distribution
+- Income segmentation
+- Customer behavior analysis
+
+**Loan Portfolio Analysis**
+
+- Loan amount distribution
+- Interest rate patterns
+- Default segmentation
+
+**Payment Behavior**
+
+- Payment patterns
+- Delinquency analysis
+
+### Techniques Used
+
+- Correlation analysis
+- Distribution analysis
+- Outlier detection using IQR
+- Statistical summaries
+
+---
+
+# 🤖 Module 4 — Loan Default Prediction
+
+**File:** `loan_default_predictor.py`
+
+Predicts borrower default risk using machine learning.
+
+### Models Implemented
+
+| Model | Description |
+|------|-------------|
+| Random Forest | Primary classification model |
+| XGBoost | Gradient boosting algorithm |
+| LightGBM | Efficient large-scale ML model |
+
+### Features Used
+
+- Customer demographics
+- Loan characteristics
+- Credit indicators
+- Payment behavior
+- Financial ratios
+
+### Output
+
+- Default probability
+- Risk classification
+- Model performance metrics
+
+---
+
+# 💡 Module 5 — Explainable AI (SHAP)
+
+**File:** `shap_explainer.py`
+
+Provides transparency for machine learning predictions.
+
+### Capabilities
+
+- Global feature importance
+- Individual prediction explanation
+- Feature impact visualization
+
+### Benefits
+
+- Transparent model decisions
+- Improved stakeholder trust
+- Regulatory compliance support
+
+---
+
+# 📚 Module 6 — Financial Document Assistant (RAG)
+
+**File:** `rag_financial.py`
+
+Implements a **Retrieval-Augmented Generation system** for financial document queries.
+
+### Technology
+
+- TF-IDF vectorization
+- Cosine similarity retrieval
+- Semantic query matching
+
+### Example Queries
+
+- What happens if a loan payment is missed?
+- What are late payment penalties?
+- What are loan approval requirements?
+
+### Benefits
+
+- Instant document lookup
+- Automated knowledge assistant
+- Faster customer support
+
+---
+
+# 💰 Module 7 — Financial Risk Models
+
+**File:** `financial_models.py`
+
+Provides advanced financial analytics and simulations.
+
+### Implemented Models
+
+**Risk Assessment**
+
+- Probability of Default (PD)
+- Loss Given Default (LGD)
+- Expected Loss (EL)
+
+**Monte Carlo Simulation**
+
+- ROI simulation
+- Risk scenario analysis
+- Value-at-Risk estimation
+
+**Forecasting Engine**
+
+- Time series forecasting
+- Loan performance prediction
+
+**Stress Testing**
+
+- Recession scenario analysis
+- Interest rate shock modeling
+
+---
+
+# 📋 Module 8 — Automated Report Generation
+
+**File:** `report_generator.py`
+
+Generates professional portfolio analysis reports.
+
+### Report Sections
+
+- Executive Summary
+- Portfolio Overview
+- Data Quality Assessment
+- Model Performance
+- Risk Insights
+- Analytical Visualizations
+
+### Output Formats
+
+- PDF reports
+- HTML reports
+
+### Benefits
+
+- Automated reporting
+- Standardized documentation
+- Client-ready analysis reports
+
+---
+
+# 🏗 System Architecture
+
