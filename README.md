@@ -468,7 +468,7 @@ Passionate about building AI-powered data systems that transform raw financial d
 
 **Skills Demonstrated**
 
--Machine Learning
+- Machine Learning
 
 - Financial Risk Modeling
 
