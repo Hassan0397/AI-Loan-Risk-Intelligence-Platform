@@ -72,6 +72,23 @@ Financial institutions face several challenges when managing loan portfolios.
 
 The AI Loan Risk Intelligence Platform introduces a **complete AI-powered analytics pipeline**.
 
+
+End-to-End Automation Pipeline
+text
+┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐
+│   Raw    │───▶│  Clean   │───▶│ Analyze  │───▶│ Predict  │───▶│ Explain  │───▶│  Report  │
+│   Data   │    │  Data    │    │  Data    │    │  Risk    │    │  Results │    │ Findings │
+└──────────┘    └──────────┘    └──────────┘    └──────────┘    └──────────┘    └──────────┘
+     │               │               │               │               │               │
+     ▼               ▼               ▼               ▼               ▼               ▼
+  Module 1        Module 2        Module 3        Module 4        Module 5        Module 8
+                                                                        │
+                                                                        ▼
+                                                                    Module 6
+                                                                        │
+                                                                        ▼
+                                                                    Module 7
+
 Raw Data
 
 ↓
