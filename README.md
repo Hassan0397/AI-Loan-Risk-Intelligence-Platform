@@ -340,8 +340,6 @@ Generates professional portfolio analysis reports.
 
 ---
 
-# 🏗 System Architecture
-
 Streamlit Web Application
 │
 ├── Data Layer
