@@ -358,3 +358,59 @@ Generates professional portfolio analysis reports.
     - financial_models.py
   - **Reporting**
     - report_generator.py
+
+
+
+---
+
+# 🛠 Technology Stack
+
+### Frontend
+Streamlit
+
+### Data Processing
+Pandas  
+NumPy  
+
+### Machine Learning
+Scikit-learn  
+XGBoost  
+LightGBM  
+
+### Visualization
+Plotly  
+Matplotlib  
+Seaborn  
+
+### Financial Modeling
+Monte Carlo Simulation  
+Time Series Forecasting  
+
+### NLP
+TF-IDF  
+Retrieval-Augmented Generation (RAG)
+
+### Reporting
+FPDF  
+HTML / CSS
+
+---
+
+# 📊 Business Impact
+
+| Metric | Improvement |
+|------|-------------|
+| Loan analysis time | Reduced from hours to minutes |
+| Default detection accuracy | Significant improvement |
+| Analyst productivity | Hundreds of hours saved annually |
+| Reporting time | Reduced from hours to minutes |
+| Portfolio insights | Automated risk discovery |
+
+---
+
+# 🚀 Getting Started
+
+### Clone Repository
+
+```bash
+git clone https://github.com/yourusername/AI-Loan-Risk-Intelligence-Platform.git
