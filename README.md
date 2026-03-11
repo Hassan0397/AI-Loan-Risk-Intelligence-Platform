@@ -397,33 +397,33 @@ Generates professional portfolio analysis reports.
 # 🛠 Technology Stack
 
 ### Frontend
-Streamlit
+- Streamlit
 
 ### Data Processing
-Pandas  
-NumPy  
+- Pandas  
+- NumPy  
 
 ### Machine Learning
-Scikit-learn  
-XGBoost  
-LightGBM  
+- Scikit-learn  
+- XGBoost  
+- LightGBM  
 
 ### Visualization
-Plotly  
-Matplotlib  
-Seaborn  
+- Plotly  
+- Matplotlib  
+- Seaborn  
 
 ### Financial Modeling
-Monte Carlo Simulation  
-Time Series Forecasting  
+- Monte Carlo Simulation  
+- Time Series Forecasting  
 
 ### NLP
-TF-IDF  
-Retrieval-Augmented Generation (RAG)
+- TF-IDF  
+- Retrieval-Augmented Generation (RAG)
 
 ### Reporting
-FPDF  
-HTML / CSS
+- FPDF  
+- HTML / CSS
 
 ---
 
